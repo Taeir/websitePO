@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<Meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+  <body>
+<form name="form1" method="post" action="postform.php">
+  Voornaam:<br>
+  <input type="text" name="voornaam" placeholder="Pieter" required="required"><br><br/>
+  Achternaam:<br>
+  <input type="text" name="achternaam" placeholder="Jan" required="required"><br><br>
+  Email:<br>
+  <input type="email" name="email" placeholder="info@form.nl" required="required" /><br/><br/>
+  Mobiele Telefoonnummer:<br>
+  <input type="text" name="tel" pattern="(06)[0-9]{8}" placeholder="0612345678" /><br/><br/>
+  Motivatie:<br/>
+  <textarea name="Motivatie" cols="40" rows="5"></textarea><br/><br/>
+  <input type="checkbox" name="check" required="required"/>Ik ga akkoord met de voorwaarden<br/><br/>
+  <input type="submit" value="Verzenden">
+</form>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
